@@ -27,7 +27,7 @@ jobs:
       - name: Login harbor
         uses: docker/login-action@v3
         with:
-          registry: crpi-b2uhi7ig8wj4j5oj.cn-hangzhou.personal.cr.aliyuncs.com
+          registry: registry.cn-hangzhou.aliyuncs.com
           username: ${{ secrets.HARBOR_NAME }}
           password: ${{ secrets.HARBOR_PASSWORD }}
 
@@ -41,4 +41,4 @@ jobs:
             VERSION=${{ env.COMMIT_HASH }}-${{ env.TIMESTAMP }}
           push: true
           tags: |
-            crpi-b2uhi7ig8wj4j5oj.cn-hangzhou.personal.cr.aliyuncs.com/pixiu-public/docker-toolbox:26.1.4
+            registry.cn-hangzhou.aliyuncs.com/linray/docker-toolbox:26.1.4
