@@ -5,8 +5,8 @@ on:
     branches: [ master ]
 
 env:
-  REGISTRY: crpi-0ecikjs9ylb2hqyo.cn-hangzhou.personal.cr.aliyuncs.com
-  REPOSITORY: pixiu-public
+  REGISTRY: crpi-b2uhi7ig8wj4j5oj.cn-hangzhou.personal.cr.aliyuncs.com
+  REPOSITORY: linray
 
 jobs:
   build:
