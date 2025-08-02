@@ -5,7 +5,7 @@ on:
     branches: [ master ]
 
 env:
-  REGISTRY: crpi-b2uhi7ig8wj4j5oj.cn-hangzhou.personal.cr.aliyuncs.com
+  REGISTRY: registry.cn-hangzhou.aliyuncs.com
   REPOSITORY: linray
 
 jobs:
